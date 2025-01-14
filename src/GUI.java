@@ -13,6 +13,7 @@ public class GUI {
         SpaceInvader si = new SpaceInvader();
         frame.add(si);
         frame.pack();
+        frame.requestFocus();
         frame.setVisible(true);
 
     }
